@@ -4,6 +4,6 @@
 2. copy the contents of bash_profile to .bash_profile in the home directory
 3. Restart the terminal
 #configure git to use a default text editor for commit message
-git config --global core.editor "vi"
-git config --global push.default upstream
+git config --global core.editor "vim"
+git config --global push.default matching
 git config --global merge.conflictstyle diff3
