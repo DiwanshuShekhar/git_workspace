@@ -5,5 +5,7 @@
 3. Restart the terminal
 #configure git to use a default text editor for commit message
 git config --global core.editor "vim"
+
 git config --global push.default matching
+
 git config --global merge.conflictstyle diff3
